@@ -1,0 +1,27 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --progress --colors --devtool source-map"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "css-loader": "^0.28.3",
+    "file-loader": "^0.11.1",
+    "less": "^2.7.2",
+    "less-loader": "^4.0.3",
+    "style-loader": "^0.18.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.6.1"
+  },
+  "description": ""
+}

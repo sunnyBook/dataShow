@@ -1,0 +1,45 @@
+.ComponentBar {
+	.row {
+		margin-top: 5px;
+		margin-bottom: 10px;
+
+		&:after {
+			content:'';
+			display: block;
+			clear: both;
+		}
+		.name {
+			float: left;
+			height: 20px;
+			line-height: 20px;
+		}
+		.loadBorder {
+			float: left;
+			height: 20px;
+			margin-left: 5px;
+			.loadContent{
+				width: 0%;
+				height: 20px;
+				border-radius: 6px;
+				transition: width 2s ease 1s;
+			}
+		}
+
+		.percent {
+			float: left;
+			height: 20px;
+			line-height: 20px;
+			margin-left: 5px;
+		}
+	}
+}
+
+
+.cpLoad .row .loadBorder .loadContent{
+
+	width: 100%;
+}
+.cpLeave .row .loadBorder .loadContent{
+
+	width: 0%;
+}
